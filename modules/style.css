@@ -2,6 +2,7 @@ body{
 	background: linear-gradient(275deg,#E7FAB0 15%,#05d5ff 70%,#8AD9A5 94%);
 	background-size: cover;
 	font-family: Nunito;
+	cursor : url(cursor.png), pointer ;
 }
 
 .topnav{
@@ -9,6 +10,7 @@ body{
 	text-align:center;
 	padding: 2% 2%;
 	transition-duration: 0.3s;
+	cursor : url(cursor.png), pointer ;
 }
 .topnav a {
 	margin-top: auto 2px;
@@ -25,6 +27,7 @@ body{
 	font-weight: 999;
 	border: 2px solid #090411;
 	transition-duration: 0.3s;
+	cursor : url(cursor.png), pointer ;
 }
 .r-btn {
 	margin-top: auto 2px;
@@ -41,24 +44,29 @@ body{
 	font-weight: 999;
 	border: 2px solid #090411;
 	transition-duration: 0.3s;
+	cursor : url(cursor.png), pointer ;
 }
 .r-btn:hover{
 	background-color: #ddd;
 	color: black;
+	cursor : url(cursor.png), pointer ;
 }
 
 .topnav a:hover {
 	background-color: #ddd;
 	color: black;
+	cursor : url(cursor.png), pointer ;
 }
 
 .topnav a.active {
 	background-color: #196EC8;
 	color: white;
+	cursor : url(cursor.png), pointer ;
 }
 .topnav a.active:hover {
 	background-color: #ddd;
 	color: #196EC8 ;
+	cursor : url(cursor.png), pointer ;
 }
 
 /* all modules */
@@ -67,6 +75,7 @@ body{
 	text-align:center;
 	padding: 1% 2%;
 	transition-duration: 0.3s;
+	cursor : url(cursor.png), pointer ;
 }
 .all-modules a{
 	font-family: Roboto;
@@ -83,11 +92,12 @@ body{
 	display: inline-block;
 	transition-duration: 0.4s;
 	text-align:left;
+	cursor : url(cursor.png), pointer ;
 }
 .all-modules a:hover{
 	background-color: #6B72D3;
 	color: white;
-	cursor: all;
+	cursor : url(cursor.png), pointer ;
 }
 
 /* container module */
@@ -95,9 +105,11 @@ body{
 	padding: 1% 10%;
 	border: 1px solid grey;
 	border-radius: 5px;
+	cursor : url(cursor.png), pointer ;
 }
 .info{
 	padding-left: 81%;
 	color:  rgb(255, 0, 0);
 	font-family: Roboto;
+	cursor : url(cursor.png), pointer ;
 }
